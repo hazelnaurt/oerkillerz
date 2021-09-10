@@ -1,7 +1,7 @@
 @use '../scss/index.scss' as *;
 
 .search {
-  width: 30vw;
+  width: $searchHeaderWidth;
   display: flex;
   position: relative;
 
@@ -22,7 +22,7 @@
     border: none;
     color: $siteBlack;
     border-radius: 1rem;
-    transition: all 0.1s;
+    transition: all 0.3s;
 
     &::-webkit-input-placeholder {
       color: $placeHold;

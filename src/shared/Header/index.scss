@@ -6,7 +6,11 @@
   z-index: 10;
   top: 0;
   position: fixed;
-  box-shadow: 0 0.5rem 2rem rgba(black, 0.3);
+  // box-shadow: 0 0.5rem 2rem rgba(black, 0.3);
+
+  &__search_placeholder {
+    width: $searchHeaderWidth;
+  }
 
   &__upper {
     height: calc(100% - 3rem);

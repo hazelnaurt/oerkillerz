@@ -9,6 +9,7 @@ import Detail from "./Detail";
 function App() {
   return (
     <Switch>
+      {/* <Route path="/" component={Detail} exact /> */}
       <Route path="/" component={Home} exact />
       <Route path="/search" component={Results} />
       <Route path="/courses" component={Detail} />

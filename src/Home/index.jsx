@@ -11,7 +11,7 @@ import sprite from "../assets/imgz/sprites.svg";
 function Home() {
   return (
     <>
-      <Header />
+      <Header searchState={true} />
       <Hero />
       <main className="home">
         <section className="home__two-col">

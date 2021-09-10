@@ -1,10 +1,15 @@
 import React from "react";
+import Header from "../shared/Header";
 import "./index.scss";
 
 function Detail() {
   return (
     <>
-      <h1>Details</h1>
+      <Header />
+      <main className="detail">
+        <section className="detail__left"></section>
+        <section className="detail__right"></section>
+      </main>
     </>
   );
 }

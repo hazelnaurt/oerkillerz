@@ -4,14 +4,18 @@ import { Link } from "react-router-dom";
 import Flag from "../../assets/imgz/flag.png";
 import Search from "../Search";
 
-function Header() {
+function Header({ searchState }) {
   return (
     <div className="header">
       <div className="header__upper">
         <div className="header__logo">
           <img src={Flag} alt="Ghana Flag" />
         </div>
-        <Search />
+        {searchState ? (
+          <Search />
+        ) : (
+          <div className="header__search_placeholder"></div>
+        )}
         <nav>
           <ul>
             <li>

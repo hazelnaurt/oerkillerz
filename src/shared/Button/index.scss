@@ -1,6 +1,7 @@
 @use '../scss/index.scss' as *;
 
 .button {
+  flex: 1;
   padding: 1rem;
   font-size: 1.5rem;
   cursor: pointer;
